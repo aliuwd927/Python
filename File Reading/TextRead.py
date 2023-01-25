@@ -1,3 +1,3 @@
-file_read = open('ReadingText.txt', 'r')
-print (file_read())
-file_read.close()
+with open('c:/Github_Local/Python/File Reading/ReadingText.txt') as f:
+    contents = f.read()
+    print(contents)
